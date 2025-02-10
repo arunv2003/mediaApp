@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const server = require('http').createServer(app);
 const io = require('socket.io')(server);
-port = 5002
+port = 5002;
 const cors = require('cors')
 const LikeSchema=require('./models/likeNotification')
 
