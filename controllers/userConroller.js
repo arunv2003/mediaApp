@@ -183,7 +183,7 @@ function sendEmail(email, randomToken) {
       from: "vermakumararun2003@gmail.com", // sender address
       to: email, // list of receivers
       subject: "Password reset request ✔", // Subject line
-      text: `Please chick the link below to choose new password:\n"http://localhost:5002/api/users/randomToken/${randomToken}"`, // plain text body
+      text: `Please chick the link below to choose new password:\n"https://mediaapp-i6ao.onrender.com/api/users/randomToken/${randomToken}"`, // plain text body
     });
 
     console.log("Message sent: %s", info.messageId);
